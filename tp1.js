@@ -2,7 +2,7 @@
 
 
 function limpiarPatente(texto) {
-  if (texto === null) { 
+  if (texto === null) { git 
     return "";
   }
   return texto.trim().toUpperCase();

@@ -2,7 +2,7 @@
 
 
 function limpiarPatente(texto) {
-  if (texto === null) { // cubrir caso Cancelar
+  if (texto === null) { 
     return "";
   }
   return texto.trim().toUpperCase();
@@ -24,7 +24,7 @@ function pedirVelocidad() {
   while (true) {
     texto = prompt("Ingrese la velocidad en km/h:");
     if (texto === null || texto.trim() === "") {
-      continue; // repetir si Cancelar o vacío
+      continue; 
     }
     velocidad = Number(texto);
     if (!isNaN(velocidad) && velocidad >= 0) {
